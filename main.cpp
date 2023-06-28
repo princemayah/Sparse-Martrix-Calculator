@@ -434,7 +434,8 @@ int main() {
   int row2;
   int col2;
   bool validInput = true;
-  
+
+  cout << "\033[2J\033[1;1H"; // Clear the console
   cout << "Welcome to the Sparse Matrix Calculator\n" << endl;
   cout << "What operation would you like to use:\n" << endl;
   cout << "Enter 'T' for transpose" << endl;
