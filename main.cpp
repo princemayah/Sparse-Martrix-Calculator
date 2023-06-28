@@ -625,6 +625,7 @@ int main() {
   // Prompt the user to enter matrix values and print the matrices based on the selected operation
   if (operation == 'T' || operation == 't') {
     enterMatrixValues(row, col, FirstMatrix);
+    cout << "Matrix: \n" << endl;
     FirstMatrix->print();
   }
   else if (operation == '*') {
