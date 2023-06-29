@@ -7,7 +7,7 @@ This C++ code implements a sparse matrix class that leverages linked lists and d
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [SparseMatrix Class](#sparsematrix-class)
-- [Example Usage](#example-usage)
+- [Example](#example)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -61,7 +61,7 @@ The `SparseMatrix` class provides the following public methods:
 
 - `SparseMatrix* operator*(SparseMatrix& other)`: Returns a new matrix that is the product of the current matrix and another matrix.
 
-## Example Usage
+## Example
 
 Here's an example of how to use the `SparseMatrix` class:
 
